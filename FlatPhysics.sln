@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlatPhysics", "FlatPhysics\FlatPhysics.csproj", "{C6123006-7C2D-4236-935F-4C2AC5B097C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatPhysicsTester", "FlatPhysicsTester\FlatPhysicsTester.csproj", "{5DBD9726-6A60-4A60-9099-409CDA57C076}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6123006-7C2D-4236-935F-4C2AC5B097C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6123006-7C2D-4236-935F-4C2AC5B097C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6123006-7C2D-4236-935F-4C2AC5B097C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6123006-7C2D-4236-935F-4C2AC5B097C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DBD9726-6A60-4A60-9099-409CDA57C076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DBD9726-6A60-4A60-9099-409CDA57C076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DBD9726-6A60-4A60-9099-409CDA57C076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DBD9726-6A60-4A60-9099-409CDA57C076}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81F48073-7992-4F61-B0EE-61F25C14F6D1}
+	EndGlobalSection
+EndGlobal

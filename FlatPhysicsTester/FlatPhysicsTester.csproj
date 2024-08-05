@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>WinExe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303">
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FlatPhysics\FlatPhysics.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Flat">
+      <HintPath>..\..\..\Downloads\Flat-main\Flat-main\bin\Debug\net6.0\Flat.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
